@@ -10,7 +10,7 @@ import sys
 
 
 # Load environment variables for Neo4j credentials
-NEO4J_URI = os.getenv("NEO4J_URI", "bolt://34.22.186.159:7687")
+NEO4J_URI = os.getenv("NEO4J_URI", "bolt://34.22.211.241:7687")
 NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "mysecretpassword")
 
