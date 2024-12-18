@@ -368,4 +368,3 @@ def query_database_with_org_id(natural_language_query, organization_id):
 
     except TimeoutException as e:
         return str(e), None
-
